@@ -5,8 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<script type="text/javascript">
-</script>
+
 <link rel="stylesheet"
 	href="${pageContext.request.contextPath}/bootstrap3.3.7/css/bootstrap.min.css">
 
@@ -14,8 +13,37 @@
 <script type="text/javascript" src="${pageContext.request.contextPath}/bootstrap3.3.7/js/bootstrap.min.js"></script>		
 
 </head>
-<body>
-<h1>${pageContext.request.contextPath}</h1>
-<button type="button" class="btn btn-success">（成功）hello world</button>
+<body >
+<div class="container">
+	<h1>实例</h1>
+	<button type="button" class="btn btn-default"  aria-label="Left Align">
+  		<span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+	</button>
+	<button type="button" class="btn btn-default btn-lg">
+	  <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star
+	</button>
+	<div class="alert alert-danger" role="alert">
+	  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+	  <span >Error:</span>
+	  Enter a valid email address
+	</div>
+	
+	<h1>下拉菜单</h1>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</div>
+
+
 </body>
 </html>
